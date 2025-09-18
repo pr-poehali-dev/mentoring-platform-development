@@ -94,7 +94,7 @@ export default function Index() {
               <a href="#" className="text-gray-600 hover:text-gray-900">Помощь</a>
               <a href="#" className="text-gray-600 hover:text-gray-900">Профиль</a>
               <a href="#" className="text-gray-600 hover:text-gray-900">Чат</a>
-            </div>
+            </nav>
 
             <div className="flex items-center space-x-4">
               <Button variant="outline">Войти</Button>
