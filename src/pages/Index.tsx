@@ -8,7 +8,7 @@ import { Calendar } from '@/components/ui/calendar';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import Icon from '@/components/ui/icon';
 
-export default function Index() {
+const Index = () => {
   const [date, setDate] = useState<Date | undefined>(new Date());
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedSubject, setSelectedSubject] = useState('all');
@@ -317,4 +317,8 @@ export default function Index() {
       </section>
     </div>
   );
-}
+};
+
+export default Index;
+
+export default Index;
