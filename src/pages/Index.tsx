@@ -31,7 +31,6 @@ const Index = () => {
       subjects: ['Математика', 'Физика'],
       rating: 4.9,
       reviews: 127,
-      price: 1500,
       experience: '8 лет',
       avatar: '/img/9e07272c-d18e-42f4-abf5-295a1622245a.jpg',
       description: 'Опытный преподаватель с индивидуальным подходом к каждому студенту',
@@ -44,7 +43,6 @@ const Index = () => {
       subjects: ['Программирование', 'Алгоритмы'],
       rating: 4.8,
       reviews: 89,
-      price: 2000,
       experience: '5 лет',
       avatar: '/img/9e07272c-d18e-42f4-abf5-295a1622245a.jpg',
       description: 'Практикующий разработчик, помогу освоить современные технологии',
@@ -57,7 +55,6 @@ const Index = () => {
       subjects: ['Химия', 'Биология'],
       rating: 4.9,
       reviews: 156,
-      price: 1200,
       experience: '12 лет',
       avatar: '/img/9e07272c-d18e-42f4-abf5-295a1622245a.jpg',
       description: 'Доступно объясню сложные концепции и помогу с подготовкой к экзаменам',
@@ -112,7 +109,7 @@ const Index = () => {
               Найди своего наставника
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-indigo-100">
-              Персональное обучение с лучшими преподавателями и экспертами
+              Бесплатное персональное обучение с лучшими преподавателями и экспертами
             </p>
             
             <div className="max-w-2xl mx-auto">
@@ -205,7 +202,7 @@ const Index = () => {
                     
                     <div className="flex items-center justify-between pt-4 border-t">
                       <div>
-                        <div className="text-lg font-bold text-indigo-600">{mentor.price} ₽/час</div>
+                        <div className="text-lg font-bold text-green-600">Бесплатно</div>
                         <div className="text-sm text-gray-500">Опыт: {mentor.experience}</div>
                       </div>
                       <Button className="bg-indigo-600 hover:bg-indigo-700">
